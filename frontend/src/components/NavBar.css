@@ -1,0 +1,41 @@
+/* navbar.css */
+
+/* Styling the header/navbar */
+.header {
+  background: url("/header.jpeg"); /* Replace 'your-image-url.jpg' with your image URL */
+  background-size: cover; /* Make the background image cover the header */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+  padding: 20px 0; /* Add some padding to the top and bottom */
+  text-align: center;
+  height: 20vh;
+}
+
+/* Styling the navigation links */
+nav {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /* Add a semi-transparent black background to the navigation */
+  padding: 10px; /* Add padding to the navigation */
+}
+
+nav a {
+  color: white; /* Text color for links */
+  text-decoration: none; /* Remove underlines from links */
+  margin: 0 10px; /* Add spacing between links */
+  font-size: 16px; /* Font size for links */
+  font-weight: bold; /* Bold font weight */
+}
+
+nav a:hover {
+  /* Style for links on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+nap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

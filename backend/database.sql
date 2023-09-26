@@ -18,24 +18,10 @@ CREATE TABLE Category (
     name CHAR(255) NOT NULL,
     description TEXT
 );
-INSERT INTO Category (name, description)
-VALUES
-    ('Cirrus', 'High cloud types'),
-    ('Cirrocumulus', 'High cloud types'),
-    ('Cirrostratus', 'High cloud types');
-    INSERT INTO Category (name, description)
-VALUES
-    ('Altocumulus', 'Medium cloud types'),
-    ('Altostratus', 'Medium cloud types'),
-    ('Nimbostratus', 'Medium cloud types');
-INSERT INTO Category (name, description)
-VALUES
-    ('Stratocumulus', 'Low cloud types'),
-    ('Stratus', 'Low cloud types'),
-    ('Cumulus', 'Low cloud types'),
-    ('Cumulonimbus', 'Low cloud types');
-
-
+INSERT INTO Category (name, description) VALUES
+('Category A', 'Description for Category A'),
+('Category B', 'Description for Category B'),
+('Category C', 'Description for Category C');
 
 
 -- Create the Cloud table with foreign keys
@@ -83,3 +69,4 @@ INSERT INTO Category_Cloud (category_id, cloud_id, categorization_date) VALUES
 (1, 1, '2023-01-10'),
 (2, 2, '2023-02-15'),
 (1, 3, '2023-03-20');
+
